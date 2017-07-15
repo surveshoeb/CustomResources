@@ -11,7 +11,7 @@ import android.widget.ToggleButton;
 
 public class CustomToggleButton extends ToggleButton {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomToggleButton(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);

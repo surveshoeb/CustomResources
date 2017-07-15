@@ -11,7 +11,7 @@ import android.widget.CheckedTextView;
 
 public class CustomCheckedTextView extends android.support.v7.widget.AppCompatCheckedTextView {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomCheckedTextView(Context context) {
         super(context);

@@ -11,7 +11,7 @@ import android.widget.RadioButton;
 
 public class CustomRadioButton extends android.support.v7.widget.AppCompatRadioButton {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomRadioButton(Context context) {
         super(context);

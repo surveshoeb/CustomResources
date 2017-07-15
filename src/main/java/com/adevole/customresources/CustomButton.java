@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class CustomButton extends android.support.v7.widget.AppCompatButton {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomButton(Context context) {
         super(context);

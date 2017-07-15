@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class CustomTextView extends android.support.v7.widget.AppCompatTextView {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomTextView(Context context) {
         super(context);

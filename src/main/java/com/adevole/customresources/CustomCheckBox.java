@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 
 public class CustomCheckBox extends android.support.v7.widget.AppCompatCheckBox {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomCheckBox(Context context) {
         super(context);

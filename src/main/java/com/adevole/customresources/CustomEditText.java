@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class CustomEditText extends android.support.v7.widget.AppCompatEditText {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomEditText(Context context) {
         super(context);
