@@ -3,7 +3,7 @@
 
 
     <declare-styleable name="CustomView">
-        <attr name="font" format="string" />
+        <attr name="customfont" format="string" />
     </declare-styleable>
 
 </resources>
