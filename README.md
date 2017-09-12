@@ -41,7 +41,7 @@ Add it in your root build.gradle at the end of repositories:
 	
 <strong>Steps in XML</strong>  
  1. xmlns:custom="http://schemas.android.com/apk/res-auto"  in XML.
- 2. custom:buttonFont="font_name" in component Tag.
+ 2. custom:font="font_name" in component Tag.
 
 <strong>Avaialabe Font</strong>  
  * bellefair
