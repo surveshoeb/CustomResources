@@ -21,7 +21,7 @@ public class CustomToggleButton extends ToggleButton {
 
         super(context, attrs, defStyleAttr, defStyleRes);
         TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
-        fontName = ta.getString(R.styleable.CustomView_buttonFont);
+        fontName = ta.getString(R.styleable.CustomView_font);
         if (fontName == null)
             fontName = "roboto";
         setFont();
@@ -30,7 +30,7 @@ public class CustomToggleButton extends ToggleButton {
     public CustomToggleButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
-        fontName = ta.getString(R.styleable.CustomView_buttonFont);
+        fontName = ta.getString(R.styleable.CustomView_font);
         if (fontName == null)
             fontName = "roboto";
         setFont();
@@ -39,7 +39,7 @@ public class CustomToggleButton extends ToggleButton {
     public CustomToggleButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
-        fontName = ta.getString(R.styleable.CustomView_buttonFont);
+        fontName = ta.getString(R.styleable.CustomView_font);
         if (fontName == null)
             fontName = "roboto";
         setFont();

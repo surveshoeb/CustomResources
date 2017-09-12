@@ -22,7 +22,7 @@ public class CustomCheckedTextView extends android.support.v7.widget.AppCompatCh
     public CustomCheckedTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
-        fontName = ta.getString(R.styleable.CustomView_buttonFont);
+        fontName = ta.getString(R.styleable.CustomView_font);
         if (fontName == null)
             fontName = "roboto";
         setFont();
@@ -31,7 +31,7 @@ public class CustomCheckedTextView extends android.support.v7.widget.AppCompatCh
     public CustomCheckedTextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
-        fontName = ta.getString(R.styleable.CustomView_buttonFont);
+        fontName = ta.getString(R.styleable.CustomView_font);
         if (fontName == null)
             fontName = "roboto";
         setFont();

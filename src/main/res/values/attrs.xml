@@ -3,14 +3,7 @@
 
 
     <declare-styleable name="CustomView">
-        <attr name="distanceExample" format="dimension"/>
-        <attr name="buttonFont" format="string" />
-        <attr name="textFont" format="string" />
-        <attr name="editTextFont" format="string" />
-        <attr name="checkBoxFont" format="string" />
-        <attr name="radioButtonFont" format="string" />
-        <attr name="toggleButtonFont" format="string" />
-
+        <attr name="font" format="string" />
     </declare-styleable>
 
 </resources>
