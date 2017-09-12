@@ -38,3 +38,23 @@ Add it in your root build.gradle at the end of repositories:
 	        compile 'com.github.surveshoeb:CustomResources:1.1.1'
 	
 	}
+	
+<strong>Steps in XML</strong>  
+ 1. xmlns:custom="http://schemas.android.com/apk/res-auto"  in XML.
+ 2. custom:font="font_name" in component Tag.
+
+<strong>Avaialabe Font</strong>  
+ * bellefair
+ * droidSans
+ * fresca
+ * gotham
+ * hind
+ * lato
+ * lora
+ * merriweather
+ * montserrat
+ * notoSans
+ * openSans
+ * raleway
+ * roboto
+
