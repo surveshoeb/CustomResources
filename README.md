@@ -35,7 +35,7 @@ Add it in your root build.gradle at the end of repositories:
   
   	dependencies {
 	
-	        compile 'com.github.surveshoeb:CustomResources:1.1.1'
+	        compile 'com.github.surveshoeb:CustomResources:1.1.4'
 	
 	}
 	
