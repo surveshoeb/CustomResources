@@ -1,6 +1,7 @@
 package com.adevole.customresources;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.Button;
 
 public class CustomButton extends android.support.v7.widget.AppCompatButton {
 
-    String fontName = "gotham";
+    String fontName = "roboto";
 
     public CustomButton(Context context) {
         super(context);
@@ -20,11 +21,19 @@ public class CustomButton extends android.support.v7.widget.AppCompatButton {
 
     public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
+        TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
+        fontName = ta.getString(R.styleable.CustomView_customfont);
+        if (fontName == null)
+            fontName = "roboto";
         setFont();
     }
 
     public CustomButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        TypedArray ta = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.CustomView, 0, 0);
+        fontName = ta.getString(R.styleable.CustomView_customfont);
+        if (fontName == null)
+            fontName = "roboto";
         setFont();
     }
 
